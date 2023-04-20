@@ -3,7 +3,7 @@
   "extends": [
     "config:base"
   ],
-  "matchDatasources": ["gradle"],
+  "packageFilePatterns": ["gradle.properties"],
   "packageRules": [
     {
       "groupName": "all non-major dependencies",
